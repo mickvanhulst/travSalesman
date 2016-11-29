@@ -6,7 +6,7 @@ def sim_annealing(cities, start):
     # This function uses sim_annealing which creates random paths and checks if the previous path is shorter than the old path.
    
     # Link to source which I used as explanation of simulated annealing: http://katrinaeg.com/simulated-annealing.html
-    for i in range(500):
+    for i in range(5000):
         print(i)
         best_tot_dist = None
         best_path = None
@@ -68,7 +68,7 @@ def nearest_neighbor(cities, start):
 
 if __name__ == '__main__':
 
-    # Created new dataset so that the nearest_neighbor function is more realistic and easier to calculate.
+    # Created new dataset so that the nearest_neighbor function is more realistic and more simplistic to calculate.
     cities = {
         'RV': {'S': 195, 'UL': 86, 'M': 178},
         'S': {'RV': 195, 'UL': 107, 'M': 230},
