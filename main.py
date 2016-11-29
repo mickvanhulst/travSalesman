@@ -67,7 +67,6 @@ def nearest_neighbor(cities, start):
     return path, total_distance
 
 if __name__ == '__main__':
-
     # Created new dataset so that the nearest_neighbor function is more realistic and more simplistic to calculate.
     cities = {
         'RV': {'S': 195, 'UL': 86, 'M': 178},
