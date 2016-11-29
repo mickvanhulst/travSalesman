@@ -12,7 +12,7 @@ def sim_annealing(cities, start):
         best_path = None
         path, tot_dist = gen_rand_path(cities, start)
 
-        # If first run than check if var is None
+        # If first run then var is None and first value is equal to best value
         if(best_tot_dist == None):
             best_tot_dist = tot_dist
             best_path = path
