@@ -97,3 +97,7 @@ if __name__ == '__main__':
     # it still does not find the best solution or a solution better than nearest_neighbor. Having more data would
     # result in nearest_neighbor being larger, since picking the nearest neighbor won't be any good when we have values
     # that have a great distance between eachother. Thanks Sirajology, I really liked this challenge :))!
+
+    # Last note: The best/shortest output the functions can generate is the following output:
+    # Shortest route: ['RV', 'M', 'UL', 'S']. Total distance: 408. Best function : sim_annealing
+    # I've decided to add this since it can take a few times before sim_annealing actually gets to this output.
